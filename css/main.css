@@ -1,0 +1,229 @@
+body {
+	font-family: Ubuntu, sans-serif;
+	font-size: 16px;
+	letter-spacing:0.02em;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: Ubutu, sans-serif;
+	font-weight: 700;
+}
+
+h3{
+	color:black;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header,.footer{
+	color:#fff;
+}
+.header {
+	background:(55,143,217);
+	background:-webkit-linear-gradient(-31deg, rgb(55, 143, 217) -3%, rgb(78, 190, 254) 103%);
+	background:-o-linear-gradient(-31deg, rgb(55, 143, 217) -3%, rgb(78, 190, 254) 103%);
+	background:-moz-linear-gradient(-31deg, rgb(55, 143, 217) -3%, rgb(78, 190, 254) 103%);
+	background:linear-gradient(-31deg, rgb(55, 143, 217) -3%, rgb(78, 190, 254) 103%);
+	padding-top:62px;
+}
+.trip{
+	display:flex;
+	justify-content:space-between;	
+}
+
+.dream{
+	width:556px;
+	align-items:center;
+}
+.title{
+	font-size:37px;
+	line-height:49px;
+	margin-top:135px;
+}
+.title span{
+	font-size:59px;
+	line-height:73px;
+}
+.goal,.footer{
+	font-family:OpenSans,sans-sarif;
+}
+.goal{
+	line-height:27px;
+	margin-bottom:35px;
+	margin-top:28px;
+	width:370px;
+}
+.btn{
+	font-family: Montserrat,sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	color: #2e2a1b;
+	width: 210px;
+	background-color: #ffd429;
+	display:block;
+	padding:20px 12px;
+	margin-bottom:211px;
+	cursor: default;
+	text-decoration:none;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	height:60px;
+}
+.btn,.section-title,.plans,.footer{
+	text-align:center;
+}
+.plans{
+	display: flex;
+	justify-content: space-between;
+	margin-top:73px;
+}
+.section-title,.plan-text,.input{
+	font-family: Ubuntu;
+	font-weight: 400;
+	color: #201b2d;
+	font-size: 15px;
+}
+.section-title{
+	font-size: 30px;
+	font-weight: 700;
+	margin-top:105px;
+	margin-bottom:60px;
+}
+.plan-text{
+	width:300px;
+	line-height: 22px;
+	margin-bottom:122px;
+}
+.mail {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 57px;
+}
+
+.section-title,.input,.footer{
+	line-height: 25px;
+}
+	
+.input {
+	width: 100%;
+	height: 48px;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+	opacity: 0.54;
+	padding-left:26px;
+	display:block;
+	margin: 0 0 15px;
+}
+
+.form{
+	max-width:340px;
+	margin:0 auto;
+}
+.btn-form {
+	width:100%;
+	border: 0;
+	display: inline;
+}
+.footer {
+	padding: 61px 0;
+	background:#164d7a;
+	font-size: 14px;
+}
+
+
+
+@media screen and (max-width:1400px){
+	.container{
+		width:1140;
+		
+	
+}
+@media screen and (max-width:1200px){
+	.container{
+		width:960px;
+	}
+	.trip{
+		flex-direction:column;
+	}
+	.dream{
+		width:80%;
+		
+	}
+	.goal{
+		width:65%;
+		
+	}
+	.btn{
+		margin-bottom:60px;
+	}
+	
+	.plans{
+		flex-direction:column;
+		
+	}
+	.plan{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.trip-one{
+		width:100%;
+		height:100%;
+	}
+	.plan-text{
+		width:100%;
+		margin-bottom:90px;	
+	}
+	.section-title {
+		width:100%;
+		margin-top: 25px;
+		margin-bottom: 40px;
+}	
+	
+@media screen and (max-width:992px){
+	.container{
+		width:720px;
+	}
+		
+	.trip-one{
+		width:100%;
+		height:100%;
+	}	
+		
+				
+}
+@media screen and (max-width:768px){
+	.container{
+		width:540px;
+		
+	
+}
+@media screen and (max-width:576px){
+	.container{
+		width:90%;
+	}
+	.trip-one{
+		width:75%;
+		height:75%;
+		}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
